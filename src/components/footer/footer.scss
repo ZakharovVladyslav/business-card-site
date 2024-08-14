@@ -1,0 +1,13 @@
+@import '../../styles';
+
+.footer-div {
+    @include flex-layout;
+
+    min-height: 500px;
+    width: 100%;
+
+    background-color: #ffffff;
+
+    position: relative;
+    z-index: 1;
+}

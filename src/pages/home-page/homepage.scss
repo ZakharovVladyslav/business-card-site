@@ -1,0 +1,12 @@
+@import '../../styles';
+
+.home-page-div {
+    @include flex-layout;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+    background-image: url('../../../public/background-hospital.png');
+}
+

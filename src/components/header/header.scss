@@ -1,0 +1,29 @@
+@import '../../styles/';
+
+.header-div {
+    @include flex-layout;
+
+    justify-content: space-around;
+
+    border-bottom: 1px solid #2b313b;
+    background-color: $main-background-color;
+
+    width: 100%;
+    min-height: 150px;
+
+    position: relative;
+    z-index: 3;
+}
+
+.button-section {
+    @include flex-layout;
+
+    justify-content: space-around;
+}
+
+.home-page-title {
+    @include flex-layout;
+
+    font-family: gladifFont, sans-serif;
+    
+}

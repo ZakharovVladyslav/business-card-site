@@ -1,0 +1,26 @@
+@import '../../styles';
+
+.button.homepage {
+    @include button-layout;
+    @include flex-layout;
+}
+
+.button.about {
+    @include button-layout;
+    @include flex-layout;
+}
+
+.button.contact {
+    @include button-layout;
+    @include flex-layout;
+}
+
+.button.blog {
+    @include button-layout;
+    @include flex-layout;
+}
+
+.button.for-doctors {
+    @include button-layout;
+    @include flex-layout;
+}
