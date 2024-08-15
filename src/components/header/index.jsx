@@ -12,11 +12,11 @@ function Header() {
                 Олена Христенко
             </p>
             <section className='button-section'>
-                <Button label={'Домашня сторінка'} className={'homepage'}/>
-                <Button label={'Про мене'} className={'about'}/>
-                <Button label={'Зворотній зв`язок'} className={'contact'}/>
-                <Button label={'Блог'} className={'blog'}/>
-                <Button label={'Для Лікарів'} className={'for-doctors'}/>
+                <Button children={'Домашня сторінка'} className={'homepage'}/>
+                <Button children={'Про мене'} className={'about'}/>
+                <Button children={'Зворотній зв`язок'} className={'contact'}/>
+                <Button children={'Блог'} className={'blog'}/>
+                <Button children={'Для Лікарів'} className={'for-doctors'}/>
             </section>
         </div>
     )

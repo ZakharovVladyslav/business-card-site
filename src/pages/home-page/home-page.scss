@@ -7,6 +7,14 @@
     justify-content: space-between;
 
     height: 100%;
-    background-image: url('../../../public/background-hospital.png');
+
+}
+
+.info-card-section {
+    @include flex-layout;
+
+    position: absolute;
+    top: 250px;
+    z-index: 3;
 }
 

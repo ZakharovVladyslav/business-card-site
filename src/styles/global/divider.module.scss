@@ -1,0 +1,42 @@
+@import 'styles';
+
+// AXIS
+.x {
+   min-width: 100%;
+}
+
+.y {
+   min-height: 100%;
+}
+
+// AXIS-SIZE
+
+.x-s {
+   height: 1px;
+}
+
+.x-m {
+   height: 2px;
+}
+
+.y-s {
+   width: 1px;
+}
+
+.y-m {
+   width: 2px;
+}
+
+// VARIANTS
+
+.primary {
+   background-color: rgba($black, 0.1);
+}
+
+.secondary {
+   background-color: rgba($white, 0.1);
+}
+
+.tertiary {
+   background-color: rgba($black, 0.6);
+}

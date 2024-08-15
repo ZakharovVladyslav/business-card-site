@@ -1,17 +1,23 @@
 import React from 'react';
 import Header from '../../components/header/index';
-import Footer from '../../components/footer';
+import BodySpan from '../../components/body-span/index';
 import InfoCard from '../../components/info-card';
+import Footer from '../../components/footer';
 
-import './homepage.scss';
+import './home-page.scss';
 
 function HomePage() {
     return (
-        <div className='home-page-div'>
-            <Header/>
-            <InfoCard/>
-            <Footer/>
-        </div>
+        <main className='home-page-main'>
+            <div className='home-page-div'>
+                <Header />
+                <section className='info-card-section'>
+                    <InfoCard />
+                </section>
+                <BodySpan/>
+                <Footer/>
+            </div>
+        </main>
     )
 }
 

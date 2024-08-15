@@ -25,5 +25,45 @@
     @include flex-layout;
 
     font-family: gladifFont, sans-serif;
+    font-size: xx-large;
+}
+
+.button.homepage {
+    @include button-layout;
+    @include flex-layout;
+
+    font-family: gladif, sans-serif;
+    font-size: large;
+}
+
+.button.about {
+    @include button-layout;
+    @include flex-layout;
     
+    font-family: gladif, sans-serif;
+    font-size: large;
+}
+
+.button.contact {
+    @include button-layout;
+    @include flex-layout;
+    
+    font-family: gladif, sans-serif;
+    font-size: large;
+}
+
+.button.blog {
+    @include button-layout;
+    @include flex-layout;
+
+    font-family: gladif, sans-serif;
+    font-size: large;
+}
+
+.button.for-doctors {
+    @include button-layout;
+    @include flex-layout;
+    
+    font-family: gladif, sans-serif;
+    font-size: large;
 }

@@ -1,13 +1,37 @@
 @import '../../styles';
 
-.footer-div {
+.footer {
     @include flex-layout;
+    flex-direction: column;
 
-    min-height: 500px;
+    min-height: 750px;
     width: 100%;
+}
 
-    background-color: #ffffff;
+.desc-text {
+    font-family: gladif, sans-serif;
 
-    position: relative;
-    z-index: 1;
+    font-size: xxx-large;
+}
+
+.desc-button-section {
+    @include flex-layout; 
+
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.desc-section {
+    @include flex-layout; 
+
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.transparent-desc-text {
+    font-family: gladif, sans-serif;
+
+    font-size: xx-large;
+
+    color: rgb(0,0,0,0.5)
 }
