@@ -10,7 +10,7 @@ function Footer() {
     return (
         <footer className='footer'>
             <section className='desc-section'>
-            <h1 className='desc-text'>Давайте зробимо ваше здоров'я краще разом.</h1>
+            <h1 className='desc-text'>Давайте зробимо ваше здоров'я краще - разом.</h1>
             <h2 className='transparent-desc-text'>Корисна інформація:</h2>
             </section>
             <section className='desc-button-section'>
@@ -18,7 +18,6 @@ function Footer() {
                 <Button children={'Зворотній зв`язок'} className={'contact'} />
                 <Button children={'Для Лікарів'} className={'for-doctors'} />
             </section>
-            <Divider />
         </footer>
     )
 }

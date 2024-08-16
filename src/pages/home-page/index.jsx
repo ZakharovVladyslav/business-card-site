@@ -5,6 +5,7 @@ import InfoCard from '../../components/info-card';
 import Footer from '../../components/footer';
 
 import './home-page.scss';
+import Copyright from '../../components/copyright';
 
 function HomePage() {
     return (
@@ -16,6 +17,7 @@ function HomePage() {
                 </section>
                 <BodySpan/>
                 <Footer/>
+                <Copyright/>
             </div>
         </main>
     )

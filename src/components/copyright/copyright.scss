@@ -1,0 +1,13 @@
+@import '../../styles';
+
+.copyright-div {
+    @include flex-layout;
+
+    align-items: center;
+    justify-content: space-around;
+
+    min-height: 100px;
+    width: 100%;
+
+    background-color: rgb(51,51,51, 0.8); 
+}
