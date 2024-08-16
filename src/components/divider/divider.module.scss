@@ -1,4 +1,4 @@
-@import 'styles';
+@import "../../styles";
 
 // AXIS
 .x {
@@ -30,13 +30,13 @@
 // VARIANTS
 
 .primary {
-   background-color: rgba($black, 0.1);
+   background-color: rgba(21, 21, 21, 0.1);
 }
 
 .secondary {
-   background-color: rgba($white, 0.1);
+   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .tertiary {
-   background-color: rgba($black, 0.6);
+   background-color: rgba(21, 21, 21, 0.6);
 }

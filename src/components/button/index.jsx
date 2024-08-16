@@ -1,10 +1,11 @@
+import clsx from 'clsx';
 import React from 'react';
 
-import './button.scss';
+import s from './button.module.scss';
 
-function Button({ children, className, icon }) {
+function Button({ children, className, size = 'm' }) {
     return (
-        <button className={`button + ${className}`}>
+        <button className={clsx(s.button, className)}>
             {children}
         </button>
     )

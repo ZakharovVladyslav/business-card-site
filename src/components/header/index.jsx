@@ -2,22 +2,23 @@ import React from 'react';
 
 import Button from '../button/index';
 
-import './header.scss';
+import s from './header.module.scss';
 
 function Header() {
     return (
-        <div className='header-div'>
-            <p className='home-page-title'>
+        <header className={s.header}>
+            <h1 className={s.homePageTitle}>
                 Ваш лікар-ендокринолог
-            </p>
-            <section className='button-section'>
-                <Button children={'Домашня сторінка'} className={'homepage'}/>
-                <Button children={'Про мене'} className={'about'}/>
-                <Button children={'Зворотній зв`язок'} className={'contact'}/>
-                <Button children={'Блог'} className={'blog'}/>
-                <Button children={'Для Лікарів'} className={'for-doctors'}/>
+            </h1>
+
+            <section className={s.buttonSection}>
+                <Button>Домашня сторінка</Button>
+                <Button>Про мене</Button>
+                <Button>Зворотній зв'язок</Button>
+                <Button>Блог</Button>
+                <Button>Для лікарів</Button>
             </section>
-        </div>
+        </header>
     )
 }
 

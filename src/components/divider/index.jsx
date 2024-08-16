@@ -1,10 +1,11 @@
+import clsx from 'clsx';
 import React from 'react';
 
-import './divider.scss';
+import s from './divider.module.scss';
 
-function Divider() { 
-    return( 
-        <div className='divider'></div>
+function Divider({ axis = 'x', variant = 'primary', size = 'm' }) {
+    return (
+        <div className={clsx((s.divider, s[axis], s[variant], s[`${axis}-${size}`]))}></div>
     )
 }
 

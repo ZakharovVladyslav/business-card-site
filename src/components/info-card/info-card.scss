@@ -1,14 +1,16 @@
-@import '../../styles';
+@import "../../styles";
 
 .info-card-div {
-    @include flex-layout;
+   @include flex-layout;
 
-    border: 1px solid #000000;
+   border: 1px solid #000000;
 
-    min-height: 600px;
-    min-width: 1200px;
+   min-height: 600px;
+   min-width: 1200px;
 
-    position: relative;
-    z-index: 3;
-
+   position: absolute;
+   top: 15%;
+   left: 50%;
+   transform: translateX(-50%);
+   z-index: 3;
 }
