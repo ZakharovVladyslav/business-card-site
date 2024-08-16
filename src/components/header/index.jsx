@@ -8,8 +8,7 @@ function Header() {
     return (
         <div className='header-div'>
             <p className='home-page-title'>
-                Ваш кращій лікар-ендокринолог :<br/>
-                Олена Христенко
+                Ваш кращій лікар-ендокринолог
             </p>
             <section className='button-section'>
                 <Button children={'Домашня сторінка'} className={'homepage'}/>

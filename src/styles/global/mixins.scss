@@ -3,12 +3,14 @@
 
 @mixin button-layout {
     min-width: 50px;
-    height: 20px;
+    height: 50px;
 
     background-color: transparent;
-    border: none;
+    border: 1px solid #76C8A7;
+    border-radius: 50px;
+    transition: border 0.3s ease;
 
-    font-family: gladifFont;
+    font-family: robotoRegularFont;
     color: #A0A0A0;
 
     &:hover {
@@ -16,7 +18,7 @@
         cursor: pointer;
 
         border: 1px solid #5C6473;
-        border-radius: 2px;
+        border-radius: 50px;
 
         color: #000000;
     }
